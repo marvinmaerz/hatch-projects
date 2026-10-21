@@ -10,8 +10,9 @@ dependencies = []
 
 [tool.hatch.envs.default]
 locked = true
-locker = "pip"
-installer = "pip"
+locker = "uv"
+installer = "uv"
 dependencies = [
+    "numpy",
     "python-dateutil"
 ]
